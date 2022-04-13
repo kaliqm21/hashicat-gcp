@@ -5,7 +5,7 @@ module "vpc" {
     project_id   = "var.project"
     network_name = "kmsai-network"
     routing_mode = "GLOBAL"
-}  
+  
   subnets = [
   {
     subnet_name   = "kmsai-subnet"
@@ -13,3 +13,4 @@ module "vpc" {
     subnet_region = var.region
   }
 ]
+}
