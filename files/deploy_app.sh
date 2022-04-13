@@ -11,7 +11,11 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
+<<<<<<< HEAD
   Welcome to ${PREFIX}'s app. Sunday is the last day of the week. Live a little!
+=======
+  Welcome to ${PREFIX}'s app. Live a little!
+>>>>>>> 36d1cf5e7897ec48b2126ed8442dfb5f0299e392
   <!-- END -->
 
   </div>
